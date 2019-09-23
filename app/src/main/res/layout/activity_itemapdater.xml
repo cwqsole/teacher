@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:padding="5dp"
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <ImageView
+        android:id="@+id/iv_tem_img"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:src="@drawable/ic_launcher_background"/>
+    <TextView
+        android:textSize="20dp"
+        android:layout_marginLeft="15dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="sdfdsf"
+        android:id="@+id/tv_actour"
+        android:layout_toRightOf="@id/iv_tem_img"/>
+    <TextView
+        android:textSize="20dp"
+        android:layout_marginLeft="15dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="fsdjl"
+        android:id="@+id/tv_title"
+        android:layout_marginTop="15dp"
+        android:layout_below="@id/tv_actour"
+        android:layout_toRightOf="@id/iv_tem_img"/>
+    <TextView
+        android:id="@+id/tv_rele"
+        android:textSize="20dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="15dp"
+        android:layout_below="@id/tv_title"
+        android:layout_toRightOf="@id/iv_tem_img"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="sdffds"/>
+    <TextView
+        android:id="@+id/tv_guanzhu"
+        android:layout_width="70dp"
+        android:layout_height="30dp"
+        android:text="关注"
+        android:textColor="@color/colorwihite"
+        android:gravity="center"
+        android:background="@color/colorLan"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="15dp"
+        />
+</RelativeLayout>
